@@ -1,0 +1,159 @@
+body{
+	background-color:#dadad8;
+}
+.widgets {
+  background: url('widgets.png') no-repeat;
+}
+.buttons {
+  background: url('buttons.png') no-repeat;
+}
+#main .nav li a,
+#main .nav li a:hover,
+.subcategory a,
+.subcategory a:hover{
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -border-radius: 3px;
+  border-radius: 3px;
+}
+/*------------------- Font Color --------------------*/
+body,
+#header,
+#sidebar1,
+#main,
+#footer,
+#main #product .topic1 a,
+#main #product .topic1 a:hover,
+#frontpage .column .topic2,
+#footer .socials_wrapper .topic1,
+#discussion .listing td a,
+#main .nav li a,
+#main .logged_in li a:hover,
+#header .type a:hover,
+#header .type .active a,
+#main .account,
+#main .logged_in li a{
+	color:#212121;
+}
+#collection .subcategory a:hover,
+#content_wrapper .search .topic1,
+#header .collection a,
+#content_wrapper .cart_status a span,
+#discussion .listing th,
+#cart .items th,
+#main .account .button,
+#main .account .signup{
+	color:#fff;
+}
+#header a,
+#header li a,
+#sidebar1 a,
+#sidebar1 li a,
+#main a,
+#main li a,
+#footer a,
+#footer li a,
+#blog .details .topic2 a,
+#cart_form .fl,
+#blog .author,
+#article .author,
+#header .site_slogan,
+#discussion .breadcrumb a,
+#discussion .message a,
+#main .column .bullets small,
+#comments li .meta span,
+#main .column li a:hover,
+#footer a:hover,
+#main .account .logged_in  li a:hover,
+#discussion .listing td a:hover,
+#discussion .original_post .fl{
+	color:#777;
+}
+#main .column li a,
+#footer .copyright a,
+#footer .copyright a:hover,
+#collection li a,
+#main .account .signup:hover{
+	color:#444;
+}
+#header a:hover,
+#header li a:hover,
+#sidebar1 a:hover,
+#sidebar1 li a:hover,
+#main a:hover,
+#main li a:hover,
+#footer a:hover,
+#footer li a:hover,
+#main .nav li a:hover,
+#header .logo_wrapper .site_name,
+#blog .details .topic2 a:hover,
+#sidebar1 .stats dd,
+#collection .grid .price,
+#discussion .breadcrumb a:hover,
+#collection .subcategory a,
+#frontpage #collection .topic1,
+#frontpage #collection li a:hover,
+#cart .summary .total_price,
+#blog .excerpt a,
+#blog .excerpt a:hover,
+#header .type a,
+#frontpage .column li a:hover,
+#header .collection li a:hover,
+#content_wrapper .cart_status a:hover span,
+#main .account .logged_in em{
+	color:#f972a1;
+}
+/*------------------- Background Color --------------------*/
+#collection .subcategory a{
+  background-color:#ececec;
+}
+#header .collection li a,
+#collection .subcategory a:hover{
+	background-color:#f972a1;
+}
+#discussion .listing th,
+#cart .items th{
+	background-color:#b6d43a;
+}
+#header .collection li a:hover{
+	background-color:#f9e7ed;
+}
+#main .account .button{
+  background-color:#b5d23a;	
+}
+#main .account .signup{
+  background-color:#f45d91;	
+}
+#main .account fieldset a:hover.signup{
+	background-color:#ffe2ec;
+}
+#main .nav li a:hover,
+#header .type li a{
+	background-color:#fff2f7;
+}
+#discussion .listing .hover,
+#discussion .page .padding,
+#comments li .meta{
+	background-color:#f9ffee;
+}
+#content_wrapper .cart_status{
+	background-color:#b6d43a;
+}
+/*------------------- Border Color --------------------*/
+#frontpage .column li{
+	border-bottom:1px dashed #ffcfe0;
+}
+#cart .items td,
+#blog li,
+#discussion .listing td{
+	border-bottom:1px dashed #d1e774;
+}
+#main .nav li{
+	border-right:1px dotted #7c7c7c;
+}
+#main .nav li.last{
+	border-right:none;
+}
+#main .bx-pager a:hover{
+	color:#fff;
+}

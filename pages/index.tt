@@ -54,7 +54,7 @@
     <h1 class="topic1"><span>[% blogs.${settings.frontpage_blog} ? blogs.${settings.frontpage_blog}.name : 'A' | html %]</span></h1>
     <ul>
       [%- foreach article in blogs.${settings.frontpage_blog}.articles (limit = settings.frontpage_blog_limit || 5) %]
-      <li class="bullets">[% article.name | html | truncate(96) | link_to article.uri %] <small>[% article.created_at | date ('%x') %]</small></li>
+      <li class="bullets">[% article.name | html | truncate(108) | link_to article.uri %] <small>[% article.created_at | date ('%x') %]</small></li>
       [%- end %]
     </ul>
   </div>
@@ -65,7 +65,7 @@
     <h1 class="topic1"><span>[% discussions.${settings.frontpage_discussion} ? discussions.${settings.frontpage_discussion}.name : 'Discussions' | html %]</span></h1>
     <ul>
       [%- foreach post in discussions.${settings.frontpage_discussion}.posts (limit = settings.frontpage_discussion_limit || 5) %]
-      <li class="bullets">[% post.subject | html | truncate(96) | link_to post.uri %] <small>[% post.created_at | date ('%x') %]</small></li>
+      <li class="bullets">[% post.subject | html | truncate(108) | link_to post.uri %] <small>[% post.created_at | date ('%x') %]</small></li>
       [%- end %]
     </ul>
   </div>

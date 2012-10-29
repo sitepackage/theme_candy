@@ -92,14 +92,6 @@
     <div id="main" class="curved">
       <div class="main">
         
-      <div class="nav">
-        <ul>
-        [%- foreach link in linklists.main_menu.links %]
-          <li class="[% 'last' if loop.last %]"><a href="[% link.uri %]">[% link.name | html %]</a></li>
-        [%- end %]
-        </ul>
-      </div>
-      
       [%- if !settings.form_login %]      
       <div class="sidebar account nav-left">
         [%- if !customer.is_logged_in %]
@@ -130,7 +122,15 @@
         </div>
         [%- end %]
       </div>
-      [%- end %]      
+      [%- end %]            
+        
+      <div class="nav">
+        <ul>
+        [%- foreach link in linklists.main_menu.links %]
+          <li class="[% 'last' if loop.last %]"><a href="[% link.uri %]">[% link.name | html %]</a></li>
+        [%- end %]
+        </ul>
+      </div>
       
       [% if template.name != 'collection.tt' && template.name != 'product.tt'  %]
       <div class="highlight_wrapper">
